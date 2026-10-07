@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vera's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h1>Vera</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#volunteering">Volunteering</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h2>Hello, I am Vera</h2>
+      <h3>Aspiring Actuary & Risk/Data Analyst</h3>
+      <p>Passionate about actuarial science, risk assurance, and STEM outreach in Ghana.</p>
+      <div class="social-icons">
+        <a href="https://github.com/yourusername">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      </div>
+      <a href="cv.pdf" class="btn">Download CV</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Me</h3>
+    <p>Actuarial science graduate and finance professional based in Ghana, with hands-on experience across financial administration, risk and fraud analytics, credit control and post-merger data integrity. Skilled in Power BI, SQL, and R, with a research focus on building an empirical early-warning climate risk index for state-guaranteed lenders.</p>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise">
+    <h3>I Specialize In</h3>
+    <div class="expertise-grid">
+      <div class="card">Risk Assurance</div>
+      <div class="card">Financial Modelling</div>
+      <div class="card">Fraud Analytics</div>
+      <div class="card">Data Integrity</div>
+      <div class="card">Credit Control</div>
+      <div class="card">STEM Outreach</div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <h3>Certificates</h3>
+    <ul>
+      <li>Google Data Analytics Professional Certificate</li>
+      <li>ALX Data Science Career Accelerator Program</li>
+      <li>Aspire Leaders Program, Harvard University Faculty Class of 2025</li>
+      <li>McKinsey Forward Program (in progress)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="skill">
+      <p>Power BI</p>
+      <div class="bar"><div class="fill" style="width:90%"></div></div>
+    </div>
+    <div class="skill">
+      <p>SQL</p>
+      <div class="bar"><div class="fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>R Programming</p>
+      <div class="bar"><div class="fill" style="width:80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Risk Analysis</p>
+      <div class="bar"><div class="fill" style="width:88%"></div></div>
+    </div>
+  </section>
+
+  <!-- Volunteering Section -->
+  <section id="volunteering">
+    <h3>Volunteering</h3>
+    <p>I actively mentor youth and participate in STEM outreach programs across Ghana.</p>
+    <div class="gallery">
+      <figure>
+        <img src="images/volunteer1.jpg" alt="Teaching mathematics">
+        <figcaption>Teaching mathematics to students</figcaption>
+      </figure>
+      <figure>
+        <img src="images/volunteer2.jpg" alt="Community outreach">
+        <figcaption>Community outreach on financial literacy</figcaption>
+      </figure>
+      <figure>
+        <img src="images/volunteer3.jpg" alt="STEM workshop">
+        <figcaption>Organizing a STEM workshop</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>Email: vera@example.com</p>
+    <p>Phone: +233 55 123 4567</p>
+  </section>
+</body>
+</html>
